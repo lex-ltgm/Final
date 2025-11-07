@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="css/Main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">My Skills</a></li>
+            <li><a href="projects.html">My Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h1>About Me</h1>
+        <img
+          src="images/1eea02f3-002b-4e14-bf11-e4129906e5c7.jpg"
+          alt="funny picture of me"
+          width="350"
+        />
+        <p>
+          Hey, I’m <strong>Lex</strong>. I’m an Afro-Latino student from Fort
+          Stockton, Texas. I’m into all kinds of music — I love to sing (even if
+          I can’t dance lol), and I’m super into drawing and tarot readings.
+          When I’m not coding or studying, I’m usually doing something creative
+          or spiritual.
+        </p>
+
+        <h2>Contact</h2>
+        <ul>
+          <p>
+            If for some reason you want to talk to me, here are a couple ways to
+            reach out:
+          </p>
+          <li>
+            email:
+            <em
+              ><a
+                href="mailto:lterry@student.neumont.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+                >lterry@student.neumont.edu</a
+              ></em
+            >
+          </li>
+          <li>
+            github:
+            <em
+              ><a
+                href="https://github.com/lex-ltgm"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://github.com/lex-ltgm</a
+              ></em
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h1>My Interests</h1>
+
+        <img
+          src="Images/00-holding-tarot.gif"
+          alt="Animated hands holding and shuffling tarot cards"
+          width="300"
+        />
+
+        <h2>What I'm Passionate About</h2>
+
+        <p>
+          I'm obviously really into computers and technology, but I'm also very
+          into the supernatural and creative arts. I love singing and drawing,
+          although I'm not the best at it.
+        </p>
+
+        <p>
+          One of my more unique interests is tarot readings, which combines
+          intuition, symbolism, and self-reflection. I find that working with
+          tarot cards helps me make decisions as well as see how my life is
+          going. I love gaming too, of course. I think Persona 4 Golden is a
+          peak of storytelling and one of my personal favorites, and as you'll
+          see soon, I am also very into Pokémon.
+        </p>
+
+        <h2>My Top Favorites</h2>
+
+        <table>
+          <tr>
+            <th>Video Games</th>
+            <th>Movies</th>
+            <th>TV Shows</th>
+          </tr>
+          <tr>
+            <td>Deltarune</td>
+            <td>Fantastic Four: First Steps</td>
+            <td>Fantasy High</td>
+          </tr>
+          <tr>
+            <td>Persona 4 Golden</td>
+            <td>La Misma Luna (2007)</td>
+            <td>Jujutsu Kaisen</td>
+          </tr>
+          <tr>
+            <td>Baldur's Gate 3</td>
+            <td>Sinners</td>
+            <td>JoJo's Bizarre Adventure</td>
+          </tr>
+        </table>
+
+        <!--I'm really proud of my work here, so I wanted to add it here-->
+        <h2>I Wanna Talk About Pokémon</h2>
+
+        <p>
+          I'm really into Pokémon right now, and thought about what team I would
+          make in each mainline game. I put some rules in place when choosing,
+          just because. The rules were: I can only pick new Pokémon from that
+          generation. I can't overlap types. I have to have a ghost type on each
+          team. And I can't pick a Legendary, Sub-Legendary, or Mythical
+          Pokémon. I only broke one of the rules because I didn't wanna pick
+          anything other than Serperior. I also tried to keep in mind what
+          version of each game I would be playing.
+        </p>
+
+        <p>
+          You should try it out too, but you don't have to follow the rules as I
+          only made those for me.
+        </p>
+
+        <section class="pokemon-tabs">
+          <nav>
+            <button class="active" onclick="showGen('gen1', this)">
+              Gen 1
+            </button>
+            <button onclick="showGen('gen2', this)">Gen 2</button>
+            <button onclick="showGen('gen3', this)">Gen 3</button>
+            <button onclick="showGen('gen4', this)">Gen 4</button>
+            <button onclick="showGen('gen5', this)">Gen 5</button>
+            <button onclick="showGen('gen6', this)">Gen 6</button>
+            <button onclick="showGen('gen7', this)">Gen 7</button>
+            <button onclick="showGen('gen8', this)">Gen 8</button>
+            <button onclick="showGen('gen9', this)">Gen 9</button>
+          </nav>
+
+          <article id="gen1" class="active">
+            <h3>Generation 1</h3>
+            <h4>Kanto Region</h4>
+            <section class="team-grid">
+              <figure>
+                <img src="Images/blastoise.png" alt="Blastoise" />
+                <figcaption>Blastoise</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/sandslash.png" alt="Sandslash" />
+                <figcaption>Sandslash</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/ninetales.png" alt="Ninetales" />
+                <figcaption>Ninetales</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/gengar.png" alt="Gengar" />
+                <figcaption>Gengar</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/ditto.png" alt="Ditto" />
+                <figcaption>Ditto</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/dragonite.png" alt="Dragonite" />
+                <figcaption>Dragonite</figcaption>
+              </figure>
+            </section>
+          </article>
+
+          <article id="gen2">
+            <h3>Generation 2</h3>
+            <h4>Johto Region</h4>
+            <section class="team-grid">
+              <figure>
+                <img src="Images/typhlosion.png" alt="Typhlosion" />
+                <figcaption>Typhlosion</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/crobat.avif" alt="Crobat" />
+                <figcaption>Crobat</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/espeon.avif" alt="Espeon" />
+                <figcaption>Espeon</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/scizor.avif" alt="Scizor" />
+                <figcaption>Scizor</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/misdreavus.avif" alt="Misdreavus" />
+                <figcaption>Misdreavus</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/tyranitar.avif" alt="Tyranitar" />
+                <figcaption>Tyranitar</figcaption>
+              </figure>
+            </section>
+          </article>
+
+          <article id="gen3">
+            <h3>Generation 3</h3>
+            <h4>Hoenn Region</h4>
+            <section class="team-grid">
+              <figure>
+                <img src="Images/swampert.avif" alt="Swampert" />
+                <figcaption>Swampert</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/gardevoir.avif" alt="Gardevoir" />
+                <figcaption>Gardevoir</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/shedinja.avif" alt="Shedinja" />
+                <figcaption>Shedinja</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/aggron.avif" alt="Aggron" />
+                <figcaption>Aggron</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/glalie.avif" alt="Glalie" />
+                <figcaption>Glalie</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/salamence.avif" alt="Salamence" />
+                <figcaption>Salamence</figcaption>
+              </figure>
+            </section>
+          </article>
+
+          <article id="gen4">
+            <h3>Generation 4</h3>
+            <h4>Sinnoh Region</h4>
+            <section class="team-grid">
+              <figure>
+                <img src="Images/infernape.avif" alt="Infernape" />
+                <figcaption>Infernape</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/luxray.avif" alt="Luxray" />
+                <figcaption>Luxray</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/lopunny.avif" alt="Lopunny" />
+                <figcaption>Lopunny</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/froslass.avif" alt="Froslass" />
+                <figcaption>Froslass</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/leafeon.avif" alt="Leafeon" />
+                <figcaption>Leafeon</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/garchomp.avif" alt="Garchomp" />
+                <figcaption>Garchomp</figcaption>
+              </figure>
+            </section>
+          </article>
+
+          <article id="gen5">
+            <h3>Generation 5</h3>
+            <h4>Unova Region</h4>
+            <section class="team-grid">
+              <figure>
+                <img src="Images/serperior.avif" alt="Serperior" />
+                <figcaption>Serperior</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/leavanny.avif" alt="Leavanny" />
+                <figcaption>Leavanny</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/reuniclus.avif" alt="Reuniclus" />
+                <figcaption>Reuniclus</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/golurk.avif" alt="Golurk" />
+                <figcaption>Golurk</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/sawk.avif" alt="Sawk" />
+                <figcaption>Sawk</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/hydreigon.avif" alt="Hydreigon" />
+                <figcaption>Hydreigon</figcaption>
+              </figure>
+            </section>
+          </article>
+
+          <article id="gen6">
+            <h3>Generation 6</h3>
+            <h4>Kalos Region</h4>
+            <section class="team-grid">
+              <figure>
+                <img src="Images/greninja.jpg" alt="Greninja" />
+                <figcaption>Greninja</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/talonflame.jpg" alt="Talonflame" />
+                <figcaption>Talonflame</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/sylveon.jpg" alt="Sylveon" />
+                <figcaption>Sylveon</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/aurorus.jpg" alt="Aurorus" />
+                <figcaption>Aurorus</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/aegislash-shield.jpg" alt="Aegislash" />
+                <figcaption>Aegislash</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/goodra.avif" alt="Goodra" />
+                <figcaption>Goodra</figcaption>
+              </figure>
+            </section>
+          </article>
+
+          <article id="gen7">
+            <h3>Generation 7</h3>
+            <h4>Alola Region</h4>
+            <section class="team-grid">
+              <figure>
+                <img src="Images/decidueye.avif" alt="Decidueye" />
+                <figcaption>Decidueye</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/vikavolt.avif" alt="Vikavolt" />
+                <figcaption>Vikavolt</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/lycanroc-dusk.avif" alt="Lycanroc" />
+                <figcaption>Lycanroc</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/wishiwashi-school.avif" alt="Wishiwashi" />
+                <figcaption>Wishiwashi</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/salazzle.avif" alt="Salazzle" />
+                <figcaption>Salazzle</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/kommo-o.avif" alt="Kommo-o" />
+                <figcaption>Kommo-o</figcaption>
+              </figure>
+            </section>
+          </article>
+
+          <article id="gen8">
+            <h3>Generation 8</h3>
+            <h4>Galar Region</h4>
+            <section class="team-grid">
+              <figure>
+                <img src="Images/inteleon.avif" alt="Inteleon" />
+                <figcaption>Inteleon</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/orbeetle.avif" alt="Orbeetle" />
+                <figcaption>Orbeetle</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/corviknight.avif" alt="Corviknight" />
+                <figcaption>Corviknight</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/grimmsnarl.avif" alt="Grimmsnarl" />
+                <figcaption>Grimmsnarl</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/boltund.avif" alt="Boltund" />
+                <figcaption>Boltund</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/dragapult.avif" alt="Dragapult" />
+                <figcaption>Dragapult</figcaption>
+              </figure>
+            </section>
+          </article>
+
+          <article id="gen9">
+            <h3>Generation 9</h3>
+            <h4>Paldea Region</h4>
+            <section class="team-grid">
+              <figure>
+                <img src="Images/quaquaval.avif" alt="Quaquaval" />
+                <figcaption>Quaquaval</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/arboliva.avif" alt="Arboliva" />
+                <figcaption>Arboliva</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/ceruledge.avif" alt="Ceruledge" />
+                <figcaption>Ceruledge</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/clodsire.avif" alt="Clodsire" />
+                <figcaption>Clodsire</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/tinkaton.avif" alt="Tinkaton" />
+                <figcaption>Tinkaton</figcaption>
+              </figure>
+              <figure>
+                <img src="Images/baxcalibur.avif" alt="Baxcalibur" />
+                <figcaption>Baxcalibur</figcaption>
+              </figure>
+            </section>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright ©2025 by Lex</p>
+    </footer>
+
+    <script>
+      function showGen(genId, button) {
+        const articles = document.querySelectorAll(".pokemon-tabs article");
+        articles.forEach((article) => article.classList.remove("active"));
+
+        const buttons = document.querySelectorAll(".pokemon-tabs nav button");
+        buttons.forEach((btn) => btn.classList.remove("active"));
+
+        document.getElementById(genId).classList.add("active");
+        button.classList.add("active");
+      }
+    </script>
+  </body>
+</html>
